@@ -1,0 +1,28 @@
+.tarjeta {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 4px lightgray;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+}
+.titulo{
+    color: white;
+    background-color: gray;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.body {
+    font-style: italic;
+    padding: 8px;
+    text-align: justify;
+}
+.foot {
+    background-color: lightgray;
+    color: white;
+    text-align: center; 
+    padding: 8px;   
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BootstrapPage</title>
+    <link rel="stylesheet" href="variables.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="col">
+        <h1>World XX</h1>
+      </div>
+
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Click</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="items">
+        <button type="button" class="btn btn-primary">30'S</button>
+        <button type="button" class="btn btn-secondary">40'S</button>
+        <button type="button" class="btn btn-success">50'S</button>
+        <button type="button" class="btn btn-danger">60'S</button>
+        <button type="button" class="btn btn-warning">70'S</button>
+        <button type="button" class="btn btn-info">80'S</button>
+        <button type="button" class="btn btn-light">90'S</button>
+        <button type="button" class="btn btn-dark">00'S</button>
+      </div>
+
+      <div class="description">
+        <p>
+          <a
+            href="#"
+            class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Estilo de vida</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Arte</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Música</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Moda</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Descubrimientos</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Hechos históricos</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Corrientes filosóficas</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Avances</a
+          >
+        </p>
+        <p>
+          <a
+            href="#"
+            class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >Tragedias</a
+          >
+        </p>
+      </div>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="blonde.jpg" class="d-block w-14" alt="1" />
+          </div>
+          <div class="carousel-item">
+            <img src="othersE.jpg" class="d-block w-20" alt="2" />
+          </div>
+          <div class="carousel-item">
+            <img src="teleph.jpg" class="d-block w-14" alt="3" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="last">
+        <span>Regístrate para recibir actualizaciones</span>
+        <form class="row g-3">
+          <div class="col-auto">
+            <label for="staticEmail2" class="visually-hidden">Email</label>
+            <input
+              class="bg"
+              type="text"
+              readonly
+              class="form-control-plaintext"
+              id="staticEmail2"
+              value="email@example.com"
+            />
+          </div>
+
+          <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword2"
+              placeholder="Password"
+            />
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Login</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="last2">
+        <div class="col-md-6" style="background-color: lightgoldenrodyellow">
+          <form>
+            <div class="form-group">
+              <label for="registerName">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="registerName"
+                placeholder="Ingresa tu nombre"
+              />
+            </div>
+            <div class="form-group">
+              <label for="registerEmail">Correo electrónico</label>
+              <input
+                type="email"
+                class="form-control"
+                id="registerEmail"
+                placeholder="Ingresa tu correo electrónico"
+              />
+            </div>
+            <div class="form-group">
+              <label for="registerPassword">Contraseña</label>
+              <input
+                type="password"
+                class="form-control"
+                id="registerPassword"
+                placeholder="Ingresa tu contraseña"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Regístrate</button>
+          </form>
+        </div>
+      </div>
+
+      <table
+        class="table"
+        style="
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+            sans-serif;
+        "
+      >
+        <thead>
+          <tr>
+            <th scope="col" style="background-color: rgb(151, 252, 252)">#</th>
+            <th scope="col" style="background-color: rgb(156, 240, 212)">
+              Games
+            </th>
+            <th scope="col" style="background-color: rgb(156, 240, 212)">
+              Music
+            </th>
+            <th scope="col" style="background-color: rgb(156, 240, 212)">
+              Art
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" style="background-color: rgb(184, 124, 240)">1</th>
+            <td>Tetrix</td>
+            <td>Blues</td>
+            <td>Cubismo</td>
+          </tr>
+          <tr>
+            <th scope="row" style="background-color: rgb(233, 132, 132)">2</th>
+            <td>Pacman</td>
+            <td>Twist</td>
+            <td>Creacionismo</td>
+          </tr>
+          <tr>
+            <th scope="row" style="background-color: rgb(238, 199, 148)">3</th>
+            <td>Nintendo</td>
+            <td>Rock and roll</td>
+            <td>Modernismo</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <footer class="footer">
+        <span> World XX </span>
+        <p>Copyright 2021</p>
+        <p>Información legal|Política de privacidad</p>
+        <img src="redes.jpg" alt="" />
+        @WorldXX
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

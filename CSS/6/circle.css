@@ -1,0 +1,15 @@
+
+.circle {
+width: 250px;
+height: 250px;
+border-radius: 50%;
+border: 10px solid orangered;
+background-clip: padding-box;
+padding: 10px;
+background-color:  blue
+}
+
+
+
+
+

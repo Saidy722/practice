@@ -1,0 +1,483 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica,
+}
+
+.container {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 40%;
+}
+
+.central {
+    display: flex; 
+    flex:1;
+}
+
+.left {
+    padding: 0 0 0 50px;
+    border-width: 1px;
+    width:35%;
+    color: rgb(47, 44, 44);
+    }
+
+    .left i{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 27px;
+    }
+    
+    .left b {
+        margin-left: 20px;
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+.left p { 
+    margin-top: 24px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+ 
+}
+.configuracion {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 21px;
+    margin-top: 14px;
+}
+
+.configuracion img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.center {
+border-left: solid gray 1px;
+flex: 1;
+position: relative;
+}
+
+.search input {
+background-color: rgb(78, 77, 77);
+color: white;
+border: 0;
+outline: none;
+}
+
+.search ::placeholder {
+    color: darkgray;
+}
+
+i {
+margin-left: 12px;
+margin-right: 9px;
+color: lightgray;
+}
+
+.search {
+    border: 1px rgb(66, 61, 61) solid;
+    border-radius: 40px;
+    width: 80%;
+    background-color: rgb(78, 77, 77);
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.gear {
+    font-size: 18px;
+position: absolute;
+right:  -105px;
+top: 12px;
+}
+  
+.gear i {
+    margin-left: 5px;
+}
+
+.elements span{
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    margin-right: -50px;
+    word-spacing: 55px;
+}
+.elements p {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    word-spacing: 1px;
+    margin-left: 13px;
+}
+
+.elements span {
+    display: flex;
+    font-size: 13px;
+    color: white;
+}
+
+.elements {
+border-bottom: solid 1px;
+    width: 600px;
+    margin-top: 16px;
+    color: rgb(47, 44, 44); 
+}
+
+.elements .linea {
+    border: 2px solid;
+    width: 50px;
+    color: rgb(53, 151, 197);
+    margin-left: 10px;
+bottom: 20px;
+}
+
+.subtitule {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.subtitule span {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.subtitule p {
+    font-size: 12px;
+    color: rgb(208, 5, 103);
+}
+
+.flags {
+    color: white;
+    margin-left: 10px;
+}
+
+.japan {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    height: 50px;
+    background-color: rgb(10, 10, 100);
+    padding-top: 8px;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.japan img {
+    width: 35px;
+    height: 24px;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.japan p {
+    position: relative;
+    right: 255px;
+    margin-top: 8px;
+}
+
+.japan .zero {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 19px;
+}
+
+.croatia {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    height: 50px;
+    background-color: rgb(35, 35, 142);
+    padding-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.croatia img {
+    width: 35px;
+    height: 24px;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.croatia p {
+    position: relative;
+    right: 250px;
+    margin-top: 8px;
+}
+
+.croatia .zero {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 19px;
+}
+
+.content {
+        width: 575px;
+        height: 320px;
+        margin-top: -11px;
+        margin-right: 2px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+        color: gray;
+}
+
+.content div {
+    padding-top:  12px;
+padding-left: 1px;
+}
+
+.content p {
+    font-size: 14px;
+    margin-block: 4px;
+    }
+
+.content .crist {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.content .paro {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.content .futbol {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.content .bell {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.content .points {
+    display: flex;
+    font-size: 18px;
+    justify-content: right;
+    position: relative;
+    right: -60px;
+    top: 21px;
+}
+
+.pardo {
+    color: rgb(2, 96, 162);
+}
+  
+.right {
+    border-left: solid rgb(47, 44, 44);
+    width: 58%;
+    font: 13px color gray;
+}
+
+aside {
+    border: solid 1px;
+    width: 390px;
+    height: 355px;
+    border-radius: 20px;
+    margin: 14px;
+    margin-left: 30px;
+    padding: 9px;
+    padding-left: 15px;
+    color: lightgray;
+}
+
+.right h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.right h4 {
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.right .google {
+    border: solid 1px;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+background-color: white;
+border: none;
+padding-left: 15px;
+margin-top: 15px;
+}
+
+.google img {
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.google p {
+    font-size: 16px;
+margin-top: -25px;
+margin-left: 65px;
+word-spacing: 3px;
+}
+
+.right .apple {
+    display: flex;
+    border: solid 1px;
+    width: 300px;
+    height: 40px;
+border-radius: 25px;
+border: none;
+background-color: white;
+color: black;
+margin-top: 7px;
+}
+
+.apple img{
+    width: 15px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 55px;
+}
+
+.apple p {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-left: 10px;
+    word-spacing: 3px;
+}
+
+.right aside div {
+        border: solid 1px;
+        width: 300px;
+        height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    }
+
+aside .telf {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    word-spacing: 3px;
+}
+
+aside p {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+aside span {
+    color: rgb(2, 96, 162);
+}
+
+.last {
+    font-size: 16px;
+    word-spacing: 3px;
+    margin-top: 18px;
+    margin-left: 50px;
+    color: gray;
+}
+
+footer {
+    display: flex;
+    width:1520px;
+    position: relative;
+    height: 80px;
+    color: white;
+    background-color:rgb(53, 151, 197);
+    justify-content: space-around;
+} 
+
+.bordfoot {
+    border: solid 1px;
+    margin-left: -50px;
+    border-color: rgb(53, 151, 197);
+}
+
+.footerA {
+    padding-top: 12px;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.footerB {
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
+    margin-left: 50px;
+}
+
+ .footerA p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footerA span {
+    font-size: 20px;
+}
+
+.footerB .login {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 13px;
+    }
+    
+    .footerB .registro {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 17px;
+    }
+
+    .footerB .border1 {
+        border-style: solid;
+        width: 140px;
+        height: 40px;
+        border-radius: 40px;
+        background-color: rgb(53, 151, 197);
+        border-width: 1px;
+        margin-top: -32px;
+        margin-right: 14px;
+    }
+    
+    .footerB .border2 {
+        border-style: solid;
+        width: 120px;
+        height: 40px;
+        border-radius: 40px;
+        background-color: white;
+        border: none;
+        margin-top: -32px;
+    }
+

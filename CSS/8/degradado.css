@@ -1,0 +1,10 @@
+.degradado {
+    margin: 20px;
+    padding: 14px;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    margin: 1px red solid;
+    background-image: linear-gradient(pink, beige, lightblue, lightyellow)
+}
+

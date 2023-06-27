@@ -1,0 +1,16 @@
+.bloque {
+width: 400px;
+height: 150px;
+border: 4px dotted; color: rgb(133, 5, 5);
+margin: 50px;
+background-color: rgb(236, 236, 170);
+padding: 40px; 
+text-align: center;
+
+font-family: georgia;
+text-transform: uppercase;
+font-size: xx-large;
+color: rgb(144, 4, 4);
+}
+
+   
