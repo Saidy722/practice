@@ -1,0 +1,14 @@
+{
+  "personas": [
+    {
+      "apellidos": "Vega",
+      "nombres": "Joshua",
+      "edad": "23"
+    },
+    {
+      "apellidos": "Var",
+      "nombres": "Jein",
+      "edad": "24"
+    }
+  ]
+}
