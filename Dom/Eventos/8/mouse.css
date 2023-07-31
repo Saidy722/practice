@@ -1,0 +1,25 @@
+
+body {
+    background-color: rgb(12, 8, 4);
+    color: rgb(240, 214, 181);
+}
+
+h3 {
+    font-weight: bold;
+    color:rgb(228, 171, 97);
+    font-size: 50px;
+
+}
+
+#imagen {
+    width: 550px;
+    height: 400px;
+}
+
+#descripcion {
+    visibility: hidden;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+

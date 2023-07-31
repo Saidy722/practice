@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarea.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+
+    <div class="contenedor">
+
+<div class="edicionTareas" id="edicionTareas">
+    <form action="#" id="formularioCrear"> Crear tarea 
+            <input type="text" id="titulo" placeholder="Título" />
+            <input type="text" id="descripcion" placeholder="Descripcion" />
+            <input type="text" id="fecha" placeholder="Fecha de vencimiento" />
+            <button type="submit" class="btnAgregarTarea">Agregar</button>
+        </form>
+        <div class="formularioEditar">
+            
+            <form id="edit-task-form"> Editar Tarea
+              <label for="edit-title">Título:</label>
+              <input type="text" id="edit-title" required />
+        
+              <label for="edit-description">Descripción:</label>
+              <input id="edit-description" required></input>
+        
+              <label for="edit-due-date">Fecha de Vencimiento:</label>
+              <input type="date" id="edit-due-date" required />
+        
+              <!-- <label>
+              <select id="edit-list" required>
+                <option value="Pendiente">Pendiente</option>
+                <option value="En Progreso">En Progreso</option>
+                <option value="Completado">Completado</option>
+              </select> -->
+        
+              <button type="submit">Guardar Cambios</button>
+            </form>
+        </div>
+    </div>
+    
+<div class="muroTareas">
+    <h2>Ver tareas</h2>
+    <div class="tareas" id="tareas">
+    <div class="pendiente" id="pendiente">Pendiente</div>
+        <div class="progreso" id="progreso">Progreso</div>
+        <div class="Completado" id="completado">Completado</div>
+    </div>
+</div>
+<script src="app.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous"
+></script>
+</body>
+</html>

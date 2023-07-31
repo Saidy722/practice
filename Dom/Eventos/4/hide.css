@@ -1,0 +1,14 @@
+#disappear {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+

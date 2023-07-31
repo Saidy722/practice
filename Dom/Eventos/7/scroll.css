@@ -1,0 +1,22 @@
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.colorScroll {
+    width: 50%;
+    height: 100%;
+    margin: 30px;
+    overflow-y: scroll;
+    background-color: #5A05AA;
+    font-size: 26px;
+    color: lightgray;
+    border-radius: 10px;
+}
+
+.menu {
+color: black;
+font-weight: bold;
+}
