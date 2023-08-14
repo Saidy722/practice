@@ -1,0 +1,22 @@
+[
+  {
+    "Usuario": "Juan Pérez",
+    "Correo Electrónico": "juan.perez@example.com",
+    "Contraseña": "Contraseña123"
+  },
+  {
+    "Usuario": "María García",
+    "Correo Electrónico": "maria.garcia@example.com",
+    "Contraseña": "Segura2023"
+  },
+  {
+    "Usuario": "Carlos Rodríguez",
+    "Correo Electrónico": "carlosr@example.com",
+    "Contraseña": "CarlosPass789"
+  },
+  {
+    "Usuario": "Olger Martínez",
+    "Correo Electrónico": "olger@example.com",
+    "Contraseña": "OlgerMM789"
+  }
+]

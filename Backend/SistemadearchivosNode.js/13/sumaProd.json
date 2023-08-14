@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Shampoo",
+    "precio": 20,
+    "cantidad": 12
+  },
+  {
+    "nombre": "Jabón",
+    "precio": 4,
+    "cantidad": 8
+  },
+  {
+    "nombre": "Crema corporal",
+    "precio": 17,
+    "cantidad": 9
+  },
+  {
+    "nombre": "Acondicionador",
+    "precio": 18,
+    "cantidad": 12
+  },
+  {
+    "nombre": "Exfoliante",
+    "precio": 15,
+    "cantidad": 5
+  },
+  {
+    "total": 74
+  }
+]

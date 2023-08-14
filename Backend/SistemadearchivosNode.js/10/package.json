@@ -1,0 +1,15 @@
+{
+  "name": "archivo-json",
+  "version": "1.0.0",
+  "description": "nombre-apellido-edad",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saidy",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
